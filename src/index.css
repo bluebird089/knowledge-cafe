@@ -1,7 +1,7 @@
+@import url(https://fonts.bunny.net/css?family=exo-2:100,200,300,400,500,600,700,900);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url(https://fonts.bunny.net/css?family=exo-2:100,200,300,400,500,600,700,900);
 
 body{
     font-family: 'Exo 2', sans-serif;
