@@ -3,7 +3,7 @@ import Bookmark from '../Bookmark/Bookmark';
 
 const Bookmarks = ({bookmarks}) => {
     return (
-        <div className="md:w-1/3 h-min bg-slate-100 rounded-2xl p-4 my-3 space-y-3">
+        <div className=" h-min bg-slate-100 rounded-2xl p-4 my-3 space-y-3">
             <h2 className='font-semibold text-xl text-center'>Bookmarks: {bookmarks.length}</h2>    
             {
                 bookmarks.map((bookmark, idx) => <Bookmark key={idx} bookmark={bookmark}></Bookmark>)
@@ -13,7 +13,7 @@ const Bookmarks = ({bookmarks}) => {
 };
 
 Bookmarks.propTypes = {
-    bookmarks: PropTypes.array.isRequired
+    bookmarks: PropTypes.array.isRequired,
 }
 
 export default Bookmarks;
